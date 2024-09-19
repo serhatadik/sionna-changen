@@ -7,7 +7,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'jupyterlab-widgets~=3.0.12',
-    	'sionna',
+    	'sionna==0.18.0',
     	'mitsuba',
     	'drjit',
         'torch',
